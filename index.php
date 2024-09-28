@@ -1,5 +1,5 @@
 <?php
-    $conexion = new mysqli("localhost", "root", "", "biblioteca");
+    include('core/conexion.php');
 
     session_start();
 
